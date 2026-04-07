@@ -12,7 +12,7 @@ export const PIXELMINT_APP_ID_PLACEHOLDER = "PIXELMINT_APP_ID_PLACEHOLDER";
 export const GITHUB_TOKEN_PLACEHOLDER = "GITHUB_TOKEN_PLACEHOLDER";
 export const VERCEL_TOKEN_PLACEHOLDER = "VERCEL_TOKEN_PLACEHOLDER";
 
-// 这里替换为真实 Builder Code
+// �����滻Ϊ��ʵ Builder Code
 export const BUILDER_CODE_PLACEHOLDER = "BUILDER_CODE_PLACEHOLDER";
 export const DATA_SUFFIX = Attribution.toDataSuffix({
   codes: [BUILDER_CODE_PLACEHOLDER],
@@ -23,4 +23,3 @@ export const pixelMintContract = {
   address: PIXELMINT_CONTRACT_ADDRESS,
   abi: pixelMintAbi,
 } as const;
-
